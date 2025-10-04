@@ -1,6 +1,7 @@
 # Power Apps Projects
-Aplikacje stworzone do automatyzacji procesów:
-- Aplikacja mobilna TANKOWANIA: monitorowanie tankowań floty i kontrola nadużyć
-- Aplikacja administracyjna: zarządzanie użytkownikami i bazą danych aplikacji mobilnej TANKOWANIA
-- Połączenie z Power BI w celu wizualizacji danych
+
+Aplikacje stworzone w Power Apps w celu automatyzacji procesów operacyjnych i poprawy przepływu danych.
+- **Aplikacja mobilna** – monitorowanie tankowań floty, kontrola nadużyć, rejestracja zdarzeń w czasie rzeczywistym.  
+- **Aplikacja administracyjna** – zarządzanie użytkownikami, bazą danych i uprawnieniami.  
+- Integracja z Power BI i SharePoint List w celu analizy danych o zużyciu paliwa i kosztach.
 - Schemat działania całego projektu
