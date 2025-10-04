@@ -20,5 +20,3 @@ Celem raportu było przygotowanie kompleksowej analizy sprzedaży z wykorzystani
 - **Tabele przestawne i wykresy dynamiczne** – wizualizacja wskaźników,
 - **Formuły warunkowe i niestandardowe formatowanie** – poprawa czytelności raportu,
 - **Segmentatory** – filtrowanie interaktywne (po regionie, produkcie, okresie i rodzaju transportu).
-
-> Wszystkie dane zostały zanonimizowane i służą wyłącznie do celów edukacyjnych.
