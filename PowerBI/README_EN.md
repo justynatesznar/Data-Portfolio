@@ -40,3 +40,28 @@ The gauge visual indicates how close the company is to achieving its environment
 
 📊 **Key areas:** Power BI, DAX, KPI visualization, ESG data analysis  
 ![ESG Emission and KPI Dashboard](esg_emission_dashboard.jpg)
+
+## ⚙️ DAX Measures Used in the Reports
+
+As part of my Power BI projects, I developed a set of DAX measures enabling dynamic analysis of purchasing data — particularly the value of orders and the duration of cooperation with suppliers.  
+These measures were designed to support supplier performance evaluation and ranking based on the total value of purchased items (indexes).
+
+### 📐 Example Measures:
+
+- **Measure_Ranking_Slicer** – calculates supplier ranking based on the total value of purchased items  
+- **Measure_Collaboration_Duration** – calculates the duration of cooperation with a supplier in months  
+- **Measure_Number_of_Collaboration_Months** – counts the number of active months of cooperation for a selected supplier  
+
+---
+
+## 📸 Measure Code Previews
+
+![Measure Collaboration Duration](Measure_Collaboration_Duration.jpg)  
+![Measure Number of Collaboration Months](Measure_Number_of_Collaboration_Months.jpg)  
+![Measure Ranking Slicer](Measure_Ranking_Slicer.jpg)
+
+---
+
+💡 *The measures were developed in DAX using functions such as `CALCULATE`, `FILTER`, `DATESINPERIOD`, and `RANKX`.  
+They enable advanced analysis of purchasing value by supplier, cooperation duration, and trends over time.*
+
