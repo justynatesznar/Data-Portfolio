@@ -1,2 +1,2 @@
 # Power BI Projects
-Zrzuty ekranów i opisy moich dashboardów stworzonych w Power BI.
+Wybrane zrzuty ekranów, opisy dashboardów oraz miar stworzonych w Power BI.
