@@ -20,11 +20,19 @@ Integruje się z Power Automate, umożliwiając automatyczne powiadomienia i akt
 
 ---
 
-### 🧾 Aplikacja **BOM (Bill of Materials)**  
-Aplikacja mobilna wspierająca zarządzanie strukturami materiałowymi (BOM).  
-Zbudowana w oparciu o **Microsoft Dataverse**, umożliwia przechowywanie i przetwarzanie danych w sposób bezpieczny i skalowalny.  
-Posiada wbudowany **skaner kodów QR**, który po zeskanowaniu kodu wyświetla listę komponentów wchodzących w skład danego BOM-u.  
-Umożliwia szybki podgląd pozycji materiałowych, ich ilości, powiązań i lokalizacji w systemie.
+### 📦 Aplikacja BOM (Bill of Materials)
+
+Aplikacja mobilna stworzona w Power Apps, oparta o bazę **Dataverse**.  
+Umożliwia użytkownikom szybki podgląd list materiałowych (BOM) poprzez **skanowanie kodów QR**.  
+Po zeskanowaniu kodu aplikacja automatycznie pobiera i wyświetla szczegółową listę komponentów wchodzących w skład danego produktu.
+
+🔹 **Funkcje:**
+- Odczyt kodów QR za pomocą aparatu w telefonie,  
+- Dynamiczne pobieranie danych z Dataverse,  
+- Intuicyjny interfejs mobilny z filtrowaniem i szczegółami BOM,  
+- Automatyczne odświeżanie danych w czasie rzeczywistym.
+
+🎥 [Zobacz prezentację aplikacji BOM (YouTube)](https://youtube.com/shorts/y32R_iskwUQ)
 
 ---
 
