@@ -32,9 +32,27 @@ Panel administracyjny umożliwiający:
 
 Aplikacja mobilna do przeglądania struktur materiałowych.  
 Po zeskanowaniu kodu QR użytkownik otrzymuje pełną listę komponentów wchodzących w skład danego produktu (BOM).  
-Dane przechowywane są w **Dataverse**.
+Dane przechowywane są w **Dataverse**, a sama aplikacja jest zintegrowana z systemem **Sage Symfonia**.
 
 🎥 [Zobacz prezentację aplikacji (YouTube)](https://youtube.com/shorts/y32R_iskwUQ)
+
+---
+
+### 🔄 Automatyczna integracja z systemem Sage Symfonia
+
+Aplikacja **BOM (Bill of Materials)** jest połączona z firmową bazą danych systemu **Sage Symfonia**.  
+Automatyzacja została zrealizowana przy pomocy przepływu **Power Automate**, który:
+
+- codziennie uruchamia proces synchronizacji danych,  
+- pobiera aktualne dane materiałowe z bazy Sage Symfonia,  
+- usuwa istniejące rekordy w tabeli Dataverse,  
+- a następnie dodaje zaktualizowane pozycje (komponenty BOM) na podstawie zapytania SQL.
+
+Dzięki temu użytkownicy aplikacji zawsze mają dostęp do aktualnych danych produktowych.
+
+📊 Schemat przepływu Power Automate:
+
+![Power Automate Flow](96adda13-a75f-4b81-b197-e047cd579825.png)
 
 ---
 
@@ -49,7 +67,15 @@ Poniżej przedstawiono architekturę systemu integrującego aplikacje Power Apps
 ## ⚙️ Użyte technologie
 
 - **Power Apps (Canvas Apps)** – projektowanie aplikacji mobilnych i webowych,  
-- **Power Automate** – automatyzacja przepływów danych (archiwizacja, czyszczenie),  
+- **Power Automate** – automatyzacja przepływów danych (archiwizacja, synchronizacja),  
 - **SharePoint Lists** – baza danych użytkowników i pojazdów,  
 - **Power BI** – raporty i dashboardy samoaktualizujące się,  
-- **Dataverse / API DKV** – zewnętrzne źródło danych z transakcji paliwowych.  
+- **Dataverse / API DKV** – zewnętrzne źródła danych,  
+- **Sage Symfonia (SQL)** – źródło danych do aplikacji BOM.  
+
+---
+
+## 🧠 Podsumowanie
+
+Zaprojektowane aplikacje tworzą kompletny, zintegrowany ekosystem w Power Platform, łączący dane z różnych źródeł i automatyzujący procesy raportowania oraz aktualizacji danych.  
+Całość została zaprojektowana z myślą o ergonomii pracy, prostocie obsługi i maksymalnej automatyzacji procesów.
